@@ -1,0 +1,12 @@
+[global]
+storeCachedForwardMessagesInMemory = false
+
+[logger]
+level = "error"
+
+[client]
+showSidebarNavigation = false
+
+[theme]
+base="light"
+primaryColor="#0EBD63"

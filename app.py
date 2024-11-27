@@ -16,16 +16,16 @@ st.set_page_config(
     menu_items={
         'Get Help': 'https://maoyu92.github.io/',
         'Report a bug': "https://maoyu92.github.io/",
-        'About': "# 关于 \n\n"
-                 "工具箱\n\n"
-                 "@陈文茂"
+        'About': "我的工具箱\n\n"
+                 "@陈文茂\n\n"
+                 "https://maoyu92.github.io/"
     }
 )
 
 
 def app():
     # st.write("## 百宝箱")
-    st.subheader("工具箱")
+    st.subheader("工具箱(开发中)")
     link1, link2, link3, link4 = st.columns(4)
 
     with link1:

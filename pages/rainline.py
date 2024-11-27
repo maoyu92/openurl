@@ -112,7 +112,6 @@ if page == "预定义暴雨强度公式":
         $$
         """
         )
-
         st.write(f"A={A}, B={B}, C={C}, N={N}")
         # 降雨强度参数输入
         P = st.sidebar.number_input("重现期P(年)", min_value=1, value=10)

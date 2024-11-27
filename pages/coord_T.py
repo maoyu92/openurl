@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 from models.coord import gcj02_to_bd09, bd09_to_gcj02, wgs84_to_gcj02, gcj02_to_wgs84, bd09_to_wgs84, wgs84_to_bd09  # 导入坐标转换函数
 
-st.page_link("app.py", label="🏠 首页")
+
 st.sidebar.page_link("app.py", label="🏠 首页")
 st.title("坐标转换工具")
 

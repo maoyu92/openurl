@@ -33,11 +33,5 @@ def app():
     with link2:
         st.page_link("pages/rainline.py", label="芝加哥雨型", icon="🌧️")
 
-
-
-
-
-
 if __name__ == "__main__":
     app()
-

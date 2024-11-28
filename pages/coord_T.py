@@ -61,7 +61,7 @@ with tab1:
             result = wgs84_to_bd09(lng, lat)
         else:
             result = (lng, lat)
-        st.write(f"转换结果：经度={result[0]:.8f}, 纬度={result[1]:.8f}")
+        st.write(f"转换结果：经度={result[0]:.8f}, {result[1]:.8f}")
 
 
 
